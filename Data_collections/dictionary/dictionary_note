@@ -1,0 +1,17 @@
+* represented using {}
+* values represented as key-value pair
+    eg: dc={'name':'anu','age':5,'class':3}
+        print(dc)
+    o/p
+        {'name': 'anu', 'age': 5, 'class': 3}
+* key must be unique but values can be repeated
+* if one key is of int type then succeeding keys must be integers
+* empty dictionary is creating as
+    dc={}
+* set is represented same as dictionary
+    s1={1,2,55,4,76,34}    dc={'name':'anu','age':5,'class':3}
+* but the empty set and dictionary is represented as
+     s2=set()            dc2={}
+* dictionary is mutable
+* nesting is possible
+* hetergenous(can contain different types)

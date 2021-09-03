@@ -1,0 +1,29 @@
+* for pattern matching
+    eg: find 'abc' in 'abacabcaabc'
+* import the package re
+    eg: import re
+
+RULES
+-----
+* x='[abc]'  -->  either a or b or c
+* x='[^abc]'  -->  except abc
+* x='[a-z]'  -->  a to z
+* x='[^A-Z]'  -->  A to Z
+* x='[^a-zA-Z]'  -->  both lower and upper cases
+* x='[0-9]'  -->  check digits
+* x='[a-zA-Z0-9]'  -->  special symbols
+* x='\s'  -->  check space
+* x='\d'  -->  check digits
+* x='\D'  -->  except digits
+* x='\w'  -->  all words except special characters
+* x='\W'  -->  for special characters
+
+QUANTIFIERS
+-----------
+* x='a+' --> a including group
+* x='a*' --> count including 0 number of a
+* x='a?' --> count a as each including 0 number of a
+* x='a{2}' --> 2 number of positions
+* x='a{2,3}' --> minimum 2 maximum 3 positions
+* x='^a' --> starting with a
+* x='a$' --> ending with a

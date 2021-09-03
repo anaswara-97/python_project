@@ -1,0 +1,36 @@
+* set is represented using {}
+* set is coming under <class 'set'>
+* unodered
+    eg : b={1,4,5,6,7,3.4,2}
+         print(b)
+    o/p
+        {1, 2, 3.4, 4, 5, 6, 7}
+
+* set is mutable(can update)
+    eg : a=set()
+         a.add(2)
+
+* dont support duplicate elements
+    eg : a={1,2,3,1,2}
+         print(a)
+    o/p
+        {1, 2, 3}
+
+* heterogeneuos(can have variety elements)
+    eg : a={1,"ammu",3.55,1,False}
+         print(a)
+    o/p
+        {False, 1, 3.55, 'ammu'}
+
+* dont support nesting
+    eg : {1,2,4,{2,4}} is not possible
+* to delete a set
+    del setname
+* to clear a set
+    setname.clear()
+*set funtions
+    a={1,2,3}
+    b={3,2,5}
+    a.union(b)
+    a.intersection(b)
+    a.difference(b)

@@ -1,0 +1,23 @@
+* list is represented using []
+* list is coming under <class 'list'>
+* keep order
+    eg : list1=[2,3,4,5,6,1,0]
+         print(list1)
+    o/p
+         [2, 3, 4, 5, 6, 1, 0]
+
+* support heterogenous elements
+    eg : list2=[2,"hai",3.4,True]
+         print(list2)
+    o/p
+         [2, 'hai', 3.4, True]
+
+* support duplicate elements
+    eg : list3=[1,2,4,1,3,4]
+         print(list3)
+    o/p
+         [1, 2, 4, 1, 3, 4]
+
+* to add elements to a list
+        append() method is used
+* nesting is possible

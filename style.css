@@ -1,0 +1,27 @@
+h1{
+
+    color:red;
+
+}
+
+h2{
+
+    /* color: #a10d83; */
+    /* color: hsl(312°, 47%, 79%); */
+    color: rgb(43, 62, 227);
+
+}
+#first{
+
+    color: seagreen;
+
+}
+#second{
+
+    color: turquoise;
+
+}
+.third{
+
+    color: yellow;
+}

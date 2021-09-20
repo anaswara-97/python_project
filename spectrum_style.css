@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+    background-color: black;
+    
+}
+h1{
+    color: snow;
+    text-align: center;
+    font-family: 'Anton', sans-serif;;
+}
+div{
+    height: 172px;
+    width: 151px;
+    border: 1px solid;
+    float: left;
+}
+.box1{
+    background-color: thistle;
+    margin-left: 281px;
+}
+.box2{
+    background-color: rgb(157, 199, 166);
+    margin-left: 7px;
+}
+.box3{
+    background-color: rgb(76, 163, 88);
+    margin-left: 7px;
+}
+.box4{
+    background-color: rgb(50, 228, 118);
+    margin-left: 7px;
+}
+.box5{
+    background-color: rgb(252, 238, 252);
+    margin-left: 7px;
+}

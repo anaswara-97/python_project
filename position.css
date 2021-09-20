@@ -1,0 +1,27 @@
+
+.row{
+    width: 700px;
+    height: 600px;
+    background-color: #40e0d0;
+    border: solid 2px blue;
+    position: relative;
+    left: 30%;
+}
+.col1{
+    height: 200px;
+    width: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+}
+.col2{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(61, 23, 133);
+    border: 2px solid black;
+    position: absolute;
+    left: 10%;
+    top: 7%;
+}
